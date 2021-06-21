@@ -42,6 +42,10 @@ h6 {
   font-size: 1.5rem;
 }
 
+main {
+  margin: 30px 50px 10px 180px;
+}
+
 .header-container {
     display: flex;
     flex-direction: row;
@@ -63,11 +67,15 @@ h6 {
   font-size: 2rem;
 }
 
-li {
+.navbar-list {
     display: inline;
     padding: 0px 20px;
     font-weight: bold;
+}
 
+.footer-list {
+    display: inline;
+    padding: 0px 20px;
 }
 
 
@@ -78,22 +86,106 @@ a, a:visited {
   padding-bottom: 4px;
 }
 
+p {
+  font-size: 1.6rem;
+}
 
-.windtunnel-aircraft {
+.main-image-section {
   width: 100%;
   height: 600px;
 }
 
+.windtunnel-aircraft {
+  width: 100%;
+  height: 100%;
+}
+
 .subtitle {
-  width: 400px;
   position:relative;
-  bottom:200px;
-  left: 1200px;
-  background-color: red;
-  color:white;
+  width: 400px;
+  bottom: 150px;
+  left: 100px;
   border: 2px solid white;
-  outline: 2px solid red;
+  background-color: red;
   padding: 20px 30px;
   text-align: center;
-  
+  outline: 2px solid red;
+  color: white;
+}
+
+/* .plane-flying {
+  width: 100%;
+  height: 600px;
+} */
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: auto;
+  margin: 20px 0px;
+}
+
+.about-me-aside {
+  height: auto;
+  flex-basis: 20%;
+  text-align: right;
+  padding: 0 10px 0 0;
+  border-right: 5px solid rgb(17, 25, 44);
+  margin-right: 30px;
+}
+
+.about-me-content {
+  height: 100%;
+  flex-basis: 60%;
+  line-height: 1.5;
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: auto;
+  margin: 20px 0px;
+}
+
+.work-aside {
+  height: auto;
+  flex-basis: 20%;
+  text-align: right;
+  padding: 0 10px 0 0;
+  border-right: 5px solid rgb(17, 25, 44);
+  margin-right: 30px;
+}
+
+.work-content {
+  height: 100%;
+  flex-basis: 60%;
+  line-height: 1.5;
+}
+
+
+.contact-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: auto;
+  margin: 20px 0px;
+}
+
+.contact-me-aside {
+  height: auto;
+  flex-basis: 20%;
+  text-align: right;
+  padding: 0 10px 0 0;
+  border-right: 5px solid rgb(17, 25, 44);
+  margin-right: 30px;
+}
+
+.contact-me-content {
+  height: 100%;
+  flex-basis: 60%;
 }
