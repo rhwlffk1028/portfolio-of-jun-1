@@ -1,4 +1,5 @@
 
+
 html {
     /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
     font-size: 62.5%;
@@ -47,10 +48,52 @@ h6 {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(17, 25, 44);
+    padding: 15px 40px 15px 0px;
+    
 }
 
+.name {
+  color: rgb(17, 25, 44);
+  background-color: rgb(189, 228, 189);
+  padding: 15px 15px 15px 100px;
+}
 
+.navbar {
+  font-size: 2rem;
+}
 
 li {
     display: inline;
+    padding: 0px 20px;
+    font-weight: bold;
+
+}
+
+
+a, a:visited {
+  color:rgb(159, 202, 159);
+  text-decoration: none;
+  border-bottom: 5px solid rgb(189, 228, 189);
+  padding-bottom: 4px;
+}
+
+
+.windtunnel-aircraft {
+  width: 100%;
+  height: 600px;
+}
+
+.subtitle {
+  width: 400px;
+  position:relative;
+  bottom:200px;
+  left: 1200px;
+  background-color: red;
+  color:white;
+  border: 2px solid white;
+  outline: 2px solid red;
+  padding: 20px 30px;
+  text-align: center;
+  
 }
