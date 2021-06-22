@@ -65,6 +65,7 @@ main {
 
 .navbar {
   font-size: 2rem;
+  width: auto;
 }
 
 .navbar-list {
@@ -76,6 +77,7 @@ main {
 .footer-list {
     display: inline;
     padding: 0px 20px;
+    font-weight: bold;
 }
 
 
@@ -84,6 +86,7 @@ a, a:visited {
   text-decoration: none;
   border-bottom: 5px solid rgb(189, 228, 189);
   padding-bottom: 4px;
+  font-size: 3rem;
 }
 
 p {
@@ -188,4 +191,8 @@ p {
 .contact-me-content {
   height: 100%;
   flex-basis: 60%;
+}
+
+.footer-font-color {
+  color: rgb(17, 25, 44);
 }
