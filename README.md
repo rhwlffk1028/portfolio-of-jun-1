@@ -33,6 +33,7 @@ The following tasks were completed to meet the employer's criteria:
 - [x] Once the list from the Navigation Bar is clicked, the UI scrolls to the corresponding section. (For the resume, addded an external link that directs to the PDF file of my resume.)
 - [x] Added a hover features in the images of the 'Work' section so that the image highlights when it's hovered. (Have not linked to anything yet because there is not enough software work. So, I added my previous work)
 - [x] When the page or view is resized, the page should be able to provide a responsive layout that adapts to the viewport. (I was not able to complete one for 768 px. Even for 992 px, I ran out of time to develop further. I will definitely incorporate more robus feature on my second portfolio.)
+- [x] In Contact Me section, I have linked my email, GitHub, and Linkedin so that when user clicks, it directs them to corresponding website.
 
 ## Screenshot of the Website
 
@@ -41,7 +42,7 @@ The following tasks were completed to meet the employer's criteria:
 
 ## Links
 
-Deployed Website Link: [https://rhwlffk1028.github.io/code-refactoring-for-client/](https://rhwlffk1028.github.io/code-refactoring-for-client/)
+Deployed Website Link: [https://rhwlffk1028.github.io/portfolio-of-jun-1/](https://rhwlffk1028.github.io/portfolio-of-jun-1/)
 
 Code Repository Link: [https://github.com/rhwlffk1028/portfolio-of-jun-1](https://github.com/rhwlffk1028/portfolio-of-jun-1)
 
