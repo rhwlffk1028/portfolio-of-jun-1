@@ -4,15 +4,18 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Title of the website -->
             <title>Jun's Portfolio</title>
+            <!-- Link resets.css to this HTML -->
             <link rel="stylesheet" href="./assets/CSS/resets.css">
+            <!-- Link style.css to this HTML -->
             <link rel="stylesheet" href="assets/CSS/style.css">
         </head>
 
         <body>
-            
+            <!-- Header with Website Name and Navigation Bar -->
             <header class="header-container">
-                <h1 class="name">
+                <h1 class="website-name">
                     KEVIN CHOI
                 </h1>
                 <nav class="navbar">
@@ -33,18 +36,19 @@
                 </nav>
             </header>
 
-            <section class="main-image-section">       
-
+            <!-- Main Image of the Website with subtitle -->
+            <main class="main-image-section">       
                 <img class="windtunnel-aircraft" src="./assets/images/graduation-3.JPG" alt="windtunnel-aircraft">
                 </img>
 
                 <button class="subtitle">
                     REMOVE BEFORE FLIGHT
                 </button>
+            </main>
 
-            </section>
-
-            <main>
+            <!-- Section that includes, 'About me', 'Work', and 'Contact Me' -->
+            <section>
+                <!-- 'About Me' Section -->
                 <section class="about-me" id="about-me">
                     <div class="aside">
                         <h2>
@@ -53,17 +57,18 @@
                             Me
                         </h2>
                     </div>
-                    <div class="about-me-content">
+                    <!-- 'About Me' Introduction -->
+                    <div class="content">
                         <p class="about-me-font">
-                            My name is Jun Choi, and I also go by Kevin. I am 26 and currently live in Des Moines, WA. I have quite an interesting educational and a career backgorund. I have obtained my bachelor's of science degree in Aerospace Engineering at the University of Washington in 2017. After my graduation, I worked as an Aerospace Engineer for about 3 years to work on the composite structures of SpaceX's crew dragon spacecraf and also on numerous aircraft design projects. </p>
+                            My name is Jun Choi, and I also go by Kevin. I am 26 and currently live in Des Moines, WA. I have quite an interesting educational and a career backgorund. I have obtained my bachelor's of science degree in Aerospace Engineering at the University of Washington in 2017. After my graduation, I worked as an Aerospace Engineer for about 3 years to work on the composite structures of SpaceX's crew dragon spacecraft and also on numerous aircraft design projects. </p>
                         <br>
                         <p class="about-me-font">
                             After 3 years of aerospace industry experience, I have decided to switch my career into a software industry to maintain a better work-life-balance. As much as I love aerospace, it was difficult to give up my previous job and many opportunities.However, I would like to thrive in this field as I decided to start a new journey, and I am very excited for this bootcamp. I hope to develop my skills as much as I can and land a job as soon as possible!
                         </p>
-                    </div>
-                    
+                    </div>                    
                 </section>
 
+                <!-- 'Work' Section -->
                 <section class="work" id="work">
                     <div class="aside">
                         <h2>
@@ -71,56 +76,61 @@
                         </h2>
                     </div>
 
-                    <div class="work-content">
+                    <!-- Defines the work content flexbox -->
+                    <div class="content work-content-flexbox">
+                        <!-- Defines the image and subtitle for the top image -->
+                        <div class="work-content-top">
+                            <img class="work-image hover-opacity" src="./assets/images/dragon-2.jpeg" alt="SpaceX-Crew-Dragon">
+                            </img>
 
-                        <img class="work-image-top" src="./assets/images/dragon-2.jpeg" alt="SpaceX-Crew-Dragon">
-                        </img>
-
-                        <div class="top-image-subtitle">
-                            <strong>SpaceX</strong>
-                            <br>
-                            Crew Dragon
+                            <div class="image-subtitle">
+                                <strong>SpaceX</strong>
+                                <br>
+                                Crew Dragon
+                            </div>
                         </div>
-
-                        <div class="work-image-bottom-flexbox">
-                            <div>
-                                <img class="work-image-bottom" src="./assets/images/electric-airplane.jpg" alt="electric-airplane">
+                        
+                        <!-- Defines the Flexbox of the bottom section of work content -->
+                        <div class="work-content-bottom-flexbox">
+                            <!-- Defines the image and subtitle for the bottom iamges -->
+                            <div class="work-content-bottom">
+                                <img class="work-image hover-opacity" src="./assets/images/electric-airplane.jpg" alt="electric-airplane">
                                 </img>
 
-                                <div class="bottom-image-subtitle">
+                                <div class="image-subtitle">
                                     <strong>MagniX</strong>
                                     <br>
                                     eCaravan
                                 </div> 
                             </div>
 
-                            <div>
-                                <img class="work-image-bottom" src="./assets/images/aircraft-design.JPG" alt="aircraft-design">
+                            <div class="work-content-bottom">
+                                <img class="work-image hover-opacity" src="./assets/images/aircraft-design.JPG" alt="aircraft-design">
                                 </img>
 
-                                <div class="bottom-image-subtitle">
+                                <div class="image-subtitle">
                                     <strong>UWAA Capstone</strong>
                                     <br>
                                     Supercruise Aircraft
                                 </div> 
                             </div>
                             
-                            <div>
-                                <img class="work-image-bottom" src="./assets/images/hybrid-rocket.JPG" alt="hybrid-rocket">
+                            <div class="work-content-bottom">
+                                <img class="work-image hover-opacity" src="./assets/images/hybrid-rocket.JPG" alt="hybrid-rocket">
                                 </img>
 
-                                <div class="bottom-image-subtitle">
+                                <div class="image-subtitle">
                                     <strong>SARP</strong>
                                     <br>
                                     Hybrid Rocket
                                 </div> 
                             </div>
 
-                            <div>
-                                <img class="work-image-bottom" src="./assets/images/liquid-rocket.JPG" alt="liquid-rocket">
+                            <div class="work-content-bottom">
+                                <img class="work-image hover-opacity" src="./assets/images/liquid-rocket.JPG" alt="liquid-rocket">
                                 </img>
 
-                                <div class="bottom-image-subtitle">
+                                <div class="image-subtitle">
                                     <strong>Junior Project</strong>
                                     <br>
                                     Liquid Rocket
@@ -128,12 +138,11 @@
                             </div>    
                         </div>
                     </div>
-                    
-                    
-
                 </section>
 
+                <!-- 'Contact Me' Section -->
                 <section class="contact-me" id="contact-me">
+                    <!-- 'Contact Me' Aside -->
                     <div class="aside">
                         <h2>
                             Contact
@@ -142,6 +151,7 @@
                         </h2>
                     </div>
                     
+                    <!-- 'Contect Me' list -->
                     <div class="contact-me-content">
                         <ul class="contact-me-content-container">
                             <li class="contact-me-list">
@@ -159,7 +169,6 @@
                         </ul>
                     </div>
                 </section>
-            </main>
-
+            </section>
         </body>
     </html>
